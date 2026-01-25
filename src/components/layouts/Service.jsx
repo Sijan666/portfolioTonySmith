@@ -1,6 +1,8 @@
 import React from 'react'
 import Container from '../Container'
 import Flex from '../Flex'
+import Images from '../Images'
+import monitor from '../../assets/monitor.png'
 
 const Service = () => {
     return (
@@ -16,8 +18,63 @@ const Service = () => {
                     </p>
                 </div>
                 <div className="">
-                    <Flex>
-                        
+                    <Flex className={'gap-x-7.5'}>
+                        <div className="bg-white px-7.5 py-10 shadow-newMade2 rounded-[5px] w-1/3">
+                            <div className="mb-5">
+                                <Images imgSrc={monitor}/>
+                            </div>
+                            <div className="">
+                                <h4 className='text-base font-medium text-[#090A0C]'>Unique design</h4>
+                                <p className='pt-2.75 text-[15px] text-[#555A64]'>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
+                            </div>
+                        </div>
+                        <div className="bg-white px-7.5 py-10 shadow-newMade2 rounded-[5px] w-1/3">
+                            <div className="mb-5">
+                                <Images imgSrc={monitor}/>
+                            </div>
+                            <div className="">
+                                <h4 className='text-base font-medium text-[#090A0C]'>Unique design</h4>
+                                <p className='pt-2.75 text-[15px] text-[#555A64]'>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
+                            </div>
+                        </div>
+                        <div className="bg-white px-7.5 py-10 shadow-newMade2 rounded-[5px] w-1/3">
+                            <div className="mb-5">
+                                <Images imgSrc={monitor}/>
+                            </div>
+                            <div className="">
+                                <h4 className='text-base font-medium text-[#090A0C]'>Unique design</h4>
+                                <p className='pt-2.75 text-[15px] text-[#555A64]'>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
+                            </div>
+                        </div>
+                    </Flex>
+                    <Flex className={'gap-x-7.5 mt-7.5'}>
+                        <div className="bg-white px-7.5 py-10 shadow-newMade2 rounded-[5px] w-1/3">
+                            <div className="mb-5">
+                                <Images imgSrc={monitor}/>
+                            </div>
+                            <div className="">
+                                <h4 className='text-base font-medium text-[#090A0C]'>Unique design</h4>
+                                <p className='pt-2.75 text-[15px] text-[#555A64]'>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
+                            </div>
+                        </div>
+                        <div className="bg-white px-7.5 py-10 shadow-newMade2 rounded-[5px] w-1/3">
+                            <div className="mb-5">
+                                <Images imgSrc={monitor}/>
+                            </div>
+                            <div className="">
+                                <h4 className='text-base font-medium text-[#090A0C]'>Unique design</h4>
+                                <p className='pt-2.75 text-[15px] text-[#555A64]'>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
+                            </div>
+                        </div>
+                        <div className="bg-white px-7.5 py-10 shadow-newMade2 rounded-[5px] w-1/3">
+                            <div className="mb-5">
+                                <Images imgSrc={monitor}/>
+                            </div>
+                            <div className="">
+                                <h4 className='text-base font-medium text-[#090A0C]'>Unique design</h4>
+                                <p className='pt-2.75 text-[15px] text-[#555A64]'>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
+                            </div>
+                        </div>
                     </Flex>
                 </div>
             </Container>
