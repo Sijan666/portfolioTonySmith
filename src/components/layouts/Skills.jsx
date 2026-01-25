@@ -2,6 +2,8 @@ import React from 'react'
 import Container from '../Container'
 import Flex from '../Flex' 
 import { Progress } from "@/components/ui/progress"
+import Images from '../Images'
+import s1 from '../../assets/s1.png'
 
 const Skills = () => {
     return (
@@ -38,6 +40,16 @@ const Skills = () => {
                                 <span className="text-sm font-medium text-gray-500">90%</span>
                             </div>
                             <Progress value={90} className="w-full bg-gray-200 *:bg-[#D9832E]"/>
+                        </div>
+                        <div className="">
+                            <Flex className={'justify-between mb-5 gap-x-5'}>
+                                <Images imgSrc={s1}/>
+                                <Images imgSrc={s1}/>
+                            </Flex>
+                            <Flex className={'justify-between gap-x-5'}>
+                                <Images imgSrc={s1}/>
+                                <Images imgSrc={s1}/>
+                            </Flex>
                         </div>
                     </Flex>
                 </div>
