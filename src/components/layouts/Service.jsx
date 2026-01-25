@@ -1,13 +1,11 @@
 import React from 'react'
 import Container from '../Container'
 import Flex from '../Flex'
-import Images from '../Images'
-import monitor from '../../assets/monitor.png'
-import tags from '../../assets/tags.png'
-import msg from '../../assets/msg.png'
-import tab from '../../assets/tab.png'
-import target from '../../assets/target.png'
-import tools from '../../assets/tools.png'
+import { Monitor } from 'lucide-react'
+import { IoPricetagsOutline } from 'react-icons/io5'
+import { TbMessages, TbTargetArrow } from 'react-icons/tb'
+import { LuTabletSmartphone } from 'react-icons/lu'
+import { LiaToolsSolid } from 'react-icons/lia'
 
 const Service = () => {
     return (
@@ -24,60 +22,60 @@ const Service = () => {
                 </div>
                 <div className="">
                     <Flex className={'gap-x-7.5'}>
-                        <div className="bg-white px-7.5 py-10 shadow-newMade2 rounded-[5px] w-1/3 ">
-                            <div className="mb-5 border-2 border-dashed border-[#D9832E] px-4.5 py-5 rounded-full inline-block  animate-[spin_10s_linear_infinite]">
-                                <Images imgSrc={monitor} className={'direction-[reverse] animate-[spin_10s_linear_infinite]'}/>
+                        <div className="bg-white px-7.5 py-10 shadow-newMade2 rounded-[5px] w-1/3 translate-y-0 hover:-translate-y-5 duration-300 hover:bg-[#D9832E] group">
+                            <div className="mb-5 border-2 border-dashed border-[#D9832E] group-hover:border-white px-4.5 py-5 rounded-full inline-block  animate-[spin_10s_linear_infinite] ">
+                                <Monitor  className={'direction-[reverse] animate-[spin_10s_linear_infinite] text-[#D9832E] group-hover:text-white duration-300'}/>
                             </div>
                             <div className="">
-                                <h4 className='text-base font-medium text-[#090A0C]'>Unique design</h4>
-                                <p className='pt-2.75 text-[15px] text-[#555A64]'>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
+                                <h4 className='text-base font-medium text-[#090A0C] group-hover:text-white duration-300'>Unique design</h4>
+                                <p className='pt-2.75 text-[15px] text-[#555A64] group-hover:text-white duration-300'>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
                             </div>
                         </div>
-                        <div className="bg-white px-7.5 py-10 shadow-newMade2 rounded-[5px] w-1/3 ">
-                            <div className="mb-5 border-2 border-dashed border-[#D9832E] px-4.5 py-5 rounded-full inline-block  animate-[spin_10s_linear_infinite]">
-                                <Images imgSrc={tags} className={'direction-[reverse] animate-[spin_10s_linear_infinite]'}/>
+                        <div className="bg-white px-7.5 py-10 shadow-newMade2 rounded-[5px] w-1/3 translate-y-0 hover:-translate-y-5 duration-300 hover:bg-[#D9832E] group">
+                            <div className="mb-5 border-2 border-dashed border-[#D9832E] group-hover:border-white px-4.5 py-5 rounded-full inline-block  animate-[spin_10s_linear_infinite] ">
+                                <IoPricetagsOutline  className={'direction-[reverse] animate-[spin_10s_linear_infinite] text-[#D9832E] group-hover:text-white duration-300'}/>
                             </div>
                             <div className="">
-                                <h4 className='text-base font-medium text-[#090A0C]'>Different Layout</h4>
-                                <p className='pt-2.75 text-[15px] text-[#555A64]'>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
+                                <h4 className='text-base font-medium text-[#090A0C] group-hover:text-white duration-300'>Different Layout</h4>
+                                <p className='pt-2.75 text-[15px] text-[#555A64] group-hover:text-white duration-300'>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
                             </div>
                         </div>
-                        <div className="bg-white px-7.5 py-10 shadow-newMade2 rounded-[5px] w-1/3 ">
-                            <div className="mb-5 border-2 border-dashed border-[#D9832E] px-4.5 py-5 rounded-full inline-block  animate-[spin_10s_linear_infinite]">
-                                <Images imgSrc={msg} className={'direction-[reverse] animate-[spin_10s_linear_infinite]'}/>
+                        <div className="bg-white px-7.5 py-10 shadow-newMade2 rounded-[5px] w-1/3 translate-y-0 hover:-translate-y-5 duration-300 hover:bg-[#D9832E] group">
+                            <div className="mb-5 border-2 border-dashed border-[#D9832E] group-hover:border-white px-4.5 py-5 rounded-full inline-block  animate-[spin_10s_linear_infinite] ">
+                                <TbMessages   className={'direction-[reverse] animate-[spin_10s_linear_infinite] text-[#D9832E] group-hover:text-white duration-300'}/>
                             </div>
                             <div className="">
-                                <h4 className='text-base font-medium text-[#090A0C]'>Make it Simple</h4>
-                                <p className='pt-2.75 text-[15px] text-[#555A64]'>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
+                                <h4 className='text-base font-medium text-[#090A0C] group-hover:text-white duration-300'>Make it Simple</h4>
+                                <p className='pt-2.75 text-[15px] text-[#555A64] group-hover:text-white duration-300'>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
                             </div>
                         </div>
                     </Flex>
                     <Flex className={'gap-x-7.5 mt-7.5'}>
-                        <div className="bg-white px-7.5 py-10 shadow-newMade2 rounded-[5px] w-1/3 ">
-                            <div className="mb-5 border-2 border-dashed border-[#D9832E] px-4.5 py-5 rounded-full inline-block  animate-[spin_10s_linear_infinite]">
-                                <Images imgSrc={tab} className={'direction-[reverse] animate-[spin_10s_linear_infinite]'}/>
+                        <div className="bg-white px-7.5 py-10 shadow-newMade2 rounded-[5px] w-1/3 translate-y-0 hover:-translate-y-5 duration-300 hover:bg-[#D9832E] group">
+                            <div className="mb-5 border-2 border-dashed border-[#D9832E] group-hover:border-white px-4.5 py-5 rounded-full inline-block  animate-[spin_10s_linear_infinite] ">
+                                <LuTabletSmartphone  className={'direction-[reverse] animate-[spin_10s_linear_infinite] text-[#D9832E] group-hover:text-white duration-300'}/>
                             </div>
                             <div className="">
-                                <h4 className='text-base font-medium text-[#090A0C]'>Responsiveness</h4>
-                                <p className='pt-2.75 text-[15px] text-[#555A64]'>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
+                                <h4 className='text-base font-medium text-[#090A0C] group-hover:text-white duration-300'>Responsiveness</h4>
+                                <p className='pt-2.75 text-[15px] text-[#555A64] group-hover:text-white duration-300'>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
                             </div>
                         </div>
-                        <div className="bg-white px-7.5 py-10 shadow-newMade2 rounded-[5px] w-1/3 ">
-                            <div className="mb-5 border-2 border-dashed border-[#D9832E] px-4.5 py-5 rounded-full inline-block  animate-[spin_10s_linear_infinite]">
-                                <Images imgSrc={target} className={'direction-[reverse] animate-[spin_10s_linear_infinite]'}/>
+                        <div className="bg-white px-7.5 py-10 shadow-newMade2 rounded-[5px] w-1/3 translate-y-0 hover:-translate-y-5 duration-300 hover:bg-[#D9832E] group">
+                            <div className="mb-5 border-2 border-dashed border-[#D9832E] group-hover:border-white px-4.5 py-5 rounded-full inline-block  animate-[spin_10s_linear_infinite] ">
+                                <TbTargetArrow className={'direction-[reverse] animate-[spin_10s_linear_infinite] text-[#D9832E] group-hover:text-white duration-300'}/>
                             </div>
                             <div className="">
-                                <h4 className='text-base font-medium text-[#090A0C]'>Testing for Perfection</h4>
-                                <p className='pt-2.75 text-[15px] text-[#555A64]'>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
+                                <h4 className='text-base font-medium text-[#090A0C] group-hover:text-white duration-300'>Testing for Perfection</h4>
+                                <p className='pt-2.75 text-[15px] text-[#555A64] group-hover:text-white duration-300'>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
                             </div>
                         </div>
-                        <div className="bg-white px-7.5 py-10 shadow-newMade2 rounded-[5px] w-1/3 ">
-                            <div className="mb-5 border-2 border-dashed border-[#D9832E] px-4.5 py-5 rounded-full inline-block  animate-[spin_10s_linear_infinite]">
-                                <Images imgSrc={tools} className={'direction-[reverse] animate-[spin_10s_linear_infinite]'}/>
+                        <div className="bg-white px-7.5 py-10 shadow-newMade2 rounded-[5px] w-1/3 translate-y-0 hover:-translate-y-5 duration-300 hover:bg-[#D9832E] group">
+                            <div className="mb-5 border-2 border-dashed border-[#D9832E] group-hover:border-white px-4.5 py-5 rounded-full inline-block  animate-[spin_10s_linear_infinite] ">
+                                <LiaToolsSolid  className={'direction-[reverse] animate-[spin_10s_linear_infinite] text-[#D9832E] group-hover:text-white duration-300'}/>
                             </div>
                             <div className="">
-                                <h4 className='text-base font-medium text-[#090A0C]'>Advanced Options</h4>
-                                <p className='pt-2.75 text-[15px] text-[#555A64]'>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
+                                <h4 className='text-base font-medium text-[#090A0C] group-hover:text-white duration-300'>Advanced Options</h4>
+                                <p className='pt-2.75 text-[15px] text-[#555A64] group-hover:text-white duration-300'>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
                             </div>
                         </div>
                     </Flex>
