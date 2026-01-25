@@ -6,6 +6,7 @@
 @theme {
     --font-Poppins: "Poppins", sans-serif; 
     --shadow-newMade: 0px 0px 3px 0px #1E2939;
+    --shadow-newMade: 0px 30px 60px 0px #263B5E/10;
 }
 
 @theme inline {
