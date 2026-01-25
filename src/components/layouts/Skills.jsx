@@ -23,6 +23,21 @@ const Skills = () => {
                                 <span className="text-sm font-medium text-gray-500">96%</span>
                             </div>
                             <Progress value={96} className="w-full bg-gray-200 *:bg-[#D9832E]"/>
+                            <div className="flex justify-between mb-2 mt-7.5">
+                                <span className="text-sm font-medium text-black">WordPress</span>
+                                <span className="text-sm font-medium text-gray-500">50%</span>
+                            </div>
+                            <Progress value={50} className="w-full bg-gray-200 *:bg-[#D9832E]"/>
+                            <div className="flex justify-between mb-2 mt-7.5">
+                                <span className="text-sm font-medium text-black">Magento</span>
+                                <span className="text-sm font-medium text-gray-500">50%</span>
+                            </div>
+                            <Progress value={50} className="w-full bg-gray-200 *:bg-[#D9832E]"/>
+                            <div className="flex justify-between mb-2 mt-7.5">
+                                <span className="text-sm font-medium text-black">UI/UX</span>
+                                <span className="text-sm font-medium text-gray-500">90%</span>
+                            </div>
+                            <Progress value={90} className="w-full bg-gray-200 *:bg-[#D9832E]"/>
                         </div>
                     </Flex>
                 </div>
