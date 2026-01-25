@@ -20,7 +20,7 @@ const Service = () => {
                         A Lead UX & UI designer based in Canada
                     </p>
                 </div>
-                <div className="">
+                <div className="pt-10">
                     <Flex className={'gap-x-7.5'}>
                         <div className="bg-white px-7.5 py-10 shadow-newMade2 rounded-[5px] w-1/3 translate-y-0 hover:-translate-y-5 duration-300 hover:bg-[#D9832E] group">
                             <div className="mb-5 border-2 border-dashed border-[#D9832E] group-hover:border-white px-4.5 py-5 rounded-full inline-block  animate-[spin_10s_linear_infinite] ">
