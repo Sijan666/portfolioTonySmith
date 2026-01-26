@@ -5,17 +5,15 @@ import Images from '../Images'
 import r1 from '../../assets/r1.png'
 import r2 from '../../assets/r2.png'
 
-// Swiper এর মডিউল এবং কম্পোনেন্ট ইম্পোর্ট
 import { Pagination, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Swiper CSS ইম্পোর্ট
 import 'swiper/css';
 import 'swiper/css/pagination';
 
 const Testimonials = () => {
     return (
-        <div className="py-25 bg-[#EAEDF2]">
+        <div className="py-25 bg-[#EAEDF2]/40">
             <Container>
                 <div className="mb-10">
                     <h3 className='text-[#090A0C] font-bold text-[35px] uppercase'>

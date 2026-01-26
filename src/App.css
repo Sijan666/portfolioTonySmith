@@ -7,6 +7,7 @@
     --font-Poppins: "Poppins", sans-serif; 
     --shadow-newMade: 0px 0px 3px 0px #1E2939;
     --shadow-newMade2: 0px 30px 60px 0px #263B5E/10;
+    --shadow-newMade3: 0px 30px 60px 0px rgba(38, 59, 94, 0.1);
 }
 
 @theme inline {

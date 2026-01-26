@@ -1,5 +1,6 @@
 import Aboutme from "../layouts/Aboutme"
 import Banner from "../layouts/Banner"
+import Contact from "../layouts/Contact"
 import Service from "../layouts/Service"
 import Skills from "../layouts/Skills"
 import Testimonials from "../layouts/Testimonials"
@@ -17,6 +18,7 @@ const Home = () => {
         <Service/>
         <Works/>
         <Testimonials/>
+        <Contact/>
         </>
     )
 }
