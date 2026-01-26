@@ -1,0 +1,28 @@
+
+.swiper {
+    padding-bottom: 50px !important;
+}
+
+.swiper-pagination {
+    bottom: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+    z-index: 10 !important;
+}
+
+.swiper-pagination-bullet {
+    width: 12px !important;
+    height: 12px !important;
+    background: white !important;
+    border: 2px solid #D9832E !important;
+    opacity: 1 !important;
+    margin: 0 6px !important;
+    border-radius: 50%;
+    display: inline-block !important;
+}
+
+/* ৪. একটিভ ডট (Active) - ভরাট */
+.swiper-pagination-bullet-active {
+    background-color: #D9832E !important;
+}

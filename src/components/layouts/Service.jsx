@@ -24,7 +24,7 @@ const Service = () => {
                     <Flex className={'gap-x-7.5'}>
                         <div className="bg-white px-7.5 py-10 shadow-newMade2 rounded-[5px] w-1/3 translate-y-0 hover:-translate-y-5 duration-300 hover:bg-[#D9832E] group">
                             <div className="mb-5 border-2 border-dashed border-[#D9832E] group-hover:border-white px-4.5 py-5 rounded-full inline-block  animate-[spin_10s_linear_infinite] ">
-                                <Monitor  className={'direction-[reverse] animate-[spin_10s_linear_infinite] text-[#D9832E] group-hover:text-white duration-300'}/>
+                                <Monitor  className={'direction-[reverse] animate-[spin_10s_linear_infinite] text-[#D9832E] group-hover:text-white duration-300 text-[30px]'}/>
                             </div>
                             <div className="">
                                 <h4 className='text-base font-medium text-[#090A0C] group-hover:text-white duration-300'>Unique design</h4>
@@ -33,7 +33,7 @@ const Service = () => {
                         </div>
                         <div className="bg-white px-7.5 py-10 shadow-newMade2 rounded-[5px] w-1/3 translate-y-0 hover:-translate-y-5 duration-300 hover:bg-[#D9832E] group">
                             <div className="mb-5 border-2 border-dashed border-[#D9832E] group-hover:border-white px-4.5 py-5 rounded-full inline-block  animate-[spin_10s_linear_infinite] ">
-                                <IoPricetagsOutline  className={'direction-[reverse] animate-[spin_10s_linear_infinite] text-[#D9832E] group-hover:text-white duration-300'}/>
+                                <IoPricetagsOutline  className={'direction-[reverse] animate-[spin_10s_linear_infinite] text-[#D9832E] group-hover:text-white duration-300 text-[30px]'}/>
                             </div>
                             <div className="">
                                 <h4 className='text-base font-medium text-[#090A0C] group-hover:text-white duration-300'>Different Layout</h4>
@@ -42,7 +42,7 @@ const Service = () => {
                         </div>
                         <div className="bg-white px-7.5 py-10 shadow-newMade2 rounded-[5px] w-1/3 translate-y-0 hover:-translate-y-5 duration-300 hover:bg-[#D9832E] group">
                             <div className="mb-5 border-2 border-dashed border-[#D9832E] group-hover:border-white px-4.5 py-5 rounded-full inline-block  animate-[spin_10s_linear_infinite] ">
-                                <TbMessages   className={'direction-[reverse] animate-[spin_10s_linear_infinite] text-[#D9832E] group-hover:text-white duration-300'}/>
+                                <TbMessages   className={'direction-[reverse] animate-[spin_10s_linear_infinite] text-[#D9832E] group-hover:text-white duration-300 text-[30px]'}/>
                             </div>
                             <div className="">
                                 <h4 className='text-base font-medium text-[#090A0C] group-hover:text-white duration-300'>Make it Simple</h4>
@@ -53,7 +53,7 @@ const Service = () => {
                     <Flex className={'gap-x-7.5 mt-7.5'}>
                         <div className="bg-white px-7.5 py-10 shadow-newMade2 rounded-[5px] w-1/3 translate-y-0 hover:-translate-y-5 duration-300 hover:bg-[#D9832E] group">
                             <div className="mb-5 border-2 border-dashed border-[#D9832E] group-hover:border-white px-4.5 py-5 rounded-full inline-block  animate-[spin_10s_linear_infinite] ">
-                                <LuTabletSmartphone  className={'direction-[reverse] animate-[spin_10s_linear_infinite] text-[#D9832E] group-hover:text-white duration-300'}/>
+                                <LuTabletSmartphone  className={'direction-[reverse] animate-[spin_10s_linear_infinite] text-[#D9832E] group-hover:text-white duration-300 text-[30px]'}/>
                             </div>
                             <div className="">
                                 <h4 className='text-base font-medium text-[#090A0C] group-hover:text-white duration-300'>Responsiveness</h4>
@@ -62,7 +62,7 @@ const Service = () => {
                         </div>
                         <div className="bg-white px-7.5 py-10 shadow-newMade2 rounded-[5px] w-1/3 translate-y-0 hover:-translate-y-5 duration-300 hover:bg-[#D9832E] group">
                             <div className="mb-5 border-2 border-dashed border-[#D9832E] group-hover:border-white px-4.5 py-5 rounded-full inline-block  animate-[spin_10s_linear_infinite] ">
-                                <TbTargetArrow className={'direction-[reverse] animate-[spin_10s_linear_infinite] text-[#D9832E] group-hover:text-white duration-300'}/>
+                                <TbTargetArrow className={'direction-[reverse] animate-[spin_10s_linear_infinite] text-[#D9832E] group-hover:text-white duration-300 text-[30px]'}/>
                             </div>
                             <div className="">
                                 <h4 className='text-base font-medium text-[#090A0C] group-hover:text-white duration-300'>Testing for Perfection</h4>
@@ -71,7 +71,7 @@ const Service = () => {
                         </div>
                         <div className="bg-white px-7.5 py-10 shadow-newMade2 rounded-[5px] w-1/3 translate-y-0 hover:-translate-y-5 duration-300 hover:bg-[#D9832E] group">
                             <div className="mb-5 border-2 border-dashed border-[#D9832E] group-hover:border-white px-4.5 py-5 rounded-full inline-block  animate-[spin_10s_linear_infinite] ">
-                                <LiaToolsSolid  className={'direction-[reverse] animate-[spin_10s_linear_infinite] text-[#D9832E] group-hover:text-white duration-300'}/>
+                                <LiaToolsSolid  className={'direction-[reverse] animate-[spin_10s_linear_infinite] text-[#D9832E] group-hover:text-white duration-300 text-[30px]'}/>
                             </div>
                             <div className="">
                                 <h4 className='text-base font-medium text-[#090A0C] group-hover:text-white duration-300'>Advanced Options</h4>
