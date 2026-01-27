@@ -4,6 +4,7 @@ import Flex from '../Flex'
 import Images from '../Images'
 import aboutu from '../../assets/aboutu.png'
 import Button from '../Button'
+import { FaFacebook, FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
 
 const Aboutme = () => {
     return (
@@ -14,9 +15,28 @@ const Aboutme = () => {
                 <p className='text-[14px] text-[#555A64] tracking-[2px] uppercase pt-2.5'>A Lead UX & UI designer based in Canada</p>
                 <div className="pt-9">
                     <Flex className={'justify-between gap-x-12'}>
-                        <div className="p-2.5 rounded-[5px] bg-white w-[40%]">
+                        <div className="p-2.5 rounded-[5px] bg-white w-[40%] relative group">
                             <Images imgSrc={aboutu}/>
-                            <div className=""></div>
+                            <div className="p-2 bg-white border-2 border-white opacity-0 group-hover:opacity-100 duration-300 -translate-x-2 group-hover:translate-x-2 inline-block overflow-hidden absolute top-8 left-0">
+                                <div className="p-3 bg-[#D9832E] duration-500 -translate-x-1 group-hover:translate-x-0 cursor-pointer opacity-0 group-hover:opacity-100">
+                                    <FaFacebookF className='text-white'/>
+                                </div>
+
+                                {/* Twitter - ১৫০ মিলিসেকেন্ড পরে আসবে */}
+                                <div className="p-3 bg-[#D9832E] mt-3 duration-500 delay-100 -translate-x-1 group-hover:translate-x-0 cursor-pointer opacity-0 group-hover:opacity-100">
+                                    <FaTwitter className='text-white'/>
+                                </div>
+
+                                {/* Instagram - ৩০০ মিলিসেকেন্ড পরে আসবে */}
+                                <div className="p-3 bg-[#D9832E] mt-3 duration-500 delay-200 -translate-x-1 group-hover:translate-x-0 cursor-pointer opacity-0 group-hover:opacity-100">
+                                    <FaInstagram className='text-white'/>
+                                </div>
+
+                                {/* LinkedIn - ৪৫০ মিলিসেকেন্ড পরে আসবে */}
+                                <div className="p-3 bg-[#D9832E] mt-3 duration-500 delay-300 -translate-x-1 group-hover:translate-x-0 cursor-pointer opacity-0 group-hover:opacity-100">
+                                    <FaLinkedinIn className='text-white'/>
+                                </div>
+                            </div>
                         </div>
                         <div className="w-[60%]">
                             <h4 className='text-[#090A0C] text-[30px] font-semibold'>I'M Tony Smith</h4>
