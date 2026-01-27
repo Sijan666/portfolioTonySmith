@@ -22,7 +22,6 @@
     display: inline-block !important;
 }
 
-/* ৪. একটিভ ডট (Active) - ভরাট */
 .swiper-pagination-bullet-active {
     background-color: #D9832E !important;
 }

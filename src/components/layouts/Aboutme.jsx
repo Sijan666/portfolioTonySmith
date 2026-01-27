@@ -16,6 +16,7 @@ const Aboutme = () => {
                     <Flex className={'justify-between gap-x-12'}>
                         <div className="p-2.5 rounded-[5px] bg-white w-[40%]">
                             <Images imgSrc={aboutu}/>
+                            <div className=""></div>
                         </div>
                         <div className="w-[60%]">
                             <h4 className='text-[#090A0C] text-[30px] font-semibold'>I'M Tony Smith</h4>
