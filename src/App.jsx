@@ -1,9 +1,11 @@
+import React, { Suspense, lazy } from 'react';
 import './App.css';
-import Home from './components/pages/Home';
 import { Routes, Route } from 'react-router-dom';
-import RootLayouts from './components/layouts/RootLayouts';
-import Error from './components/pages/Error';
 import ReactLenis from 'lenis/react';
+
+const RootLayouts = lazy(() => import('./components/layouts/RootLayouts'));
+const Home = lazy(() => import('./components/pages/Home'));
+const Error = lazy(() => import('./components/pages/Error'));
 
 function App() {
   return (
@@ -26,13 +28,15 @@ function App() {
         }
       `}</style>
 
-      <ReactLenis root options={{ lerp: 0.08, duration: 1.5, smoothWheel: true, smoothTouch: false,}}>
-        <Routes>
-          <Route path="/" element={<RootLayouts />}>
-            <Route index element={<Home />} />
-          </Route>
-          <Route path="*" element={<Error />} />
-        </Routes>
+      <ReactLenis root options={{ lerp: 0.08, duration: 1.5, smoothWheel: true, smoothTouch: false }}>
+        <Suspense fallback={""}>
+          <Routes>
+            <Route path="/" element={<RootLayouts />}>
+              <Route index element={<Home />} />
+            </Route>
+            <Route path="*" element={<Error />} />
+          </Routes>
+        </Suspense>
       </ReactLenis>
     </>
   );
